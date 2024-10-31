@@ -1,0 +1,113 @@
+/*
+
+[Pricing Table Style 6]
+
+Project: PriceX - Material Design Pricing Table Set
+Version: 1.0
+Author : themelooks.com
+
+[Table of Contents]
+
+1. PRICING TABLE
+
+2. PRICING TABLE - HEADER
+
+3. PRICING TABLE - BODY
+
+4. PRICING TABLE - FOOTER
+
+*/
+
+/*------------------------------------*\
+    1. PRICING TABLE
+\*------------------------------------*/
+.margin-bottom {
+	margin-bottom: 30px;
+}
+.peicex_section {
+	padding: 60px 0;
+}
+.peicex_section ul {
+    padding: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+.pricing-table-6 {
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.14);
+    background-color: #fff;
+    text-align: center;
+	-webkit-transition: .25s ease-in-out;
+	        transition: .25s ease-in-out;
+}
+.pricing-table-6:hover {
+	box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+/*------------------------------------*\
+    2. PRICING TABLE - HEADER
+\*------------------------------------*/
+.pt-6--header {
+    padding: 30px 0 0;
+}
+
+.pt-6-header--caption {
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 0 0 5px;
+    border-bottom: 1px solid #ff5252;
+    color: #303030;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: .12em;
+}
+
+.pt-6-header--price {
+    margin: 10px 0;
+    color: #303030;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+}
+.pt-6-header--price span {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.pt-6-header--plan {
+    padding: 20px 0;
+    color: #fff;
+    background-color: #ff5252;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+/*------------------------------------*\
+    3. PRICING TABLE - BODY
+\*------------------------------------*/
+.pt-6--body ul {
+    margin: 0;
+    padding: 5px 0 0;
+    list-style: none;
+}
+.pt-6--body ul li {
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    color: #737373;
+    font-weight: 300;
+}
+
+/*------------------------------------*\
+    4. PRICING TABLE - FOOTER
+\*------------------------------------*/
+.pt-6--footer {
+    padding: 20px 0;
+}
+.pt-6--footer a {
+    height: auto;
+    padding: 3px 25px;
+}
+.pt-6--footer a:hover,
+.pt-6--footer a:focus {
+	text-decoration: none;
+}

@@ -1,0 +1,191 @@
+/*
+
+[Pricing Table Style 3]
+
+Project: PriceX - Material Design Pricing Table Set
+Version: 1.0
+Author : themelooks.com
+
+[Table of Contents]
+
+1. PRICING TABLE
+
+2. PRICING TABLE - HEADER
+
+3. PRICING TABLE - BODY
+
+4. PRICING TABLE - FOOTER
+
+*/
+
+/*------------------------------------*\
+    1. PRICING TABLE
+\*------------------------------------*/
+.margin-bottom {
+	margin-bottom: 30px;
+}
+.peicex_section {
+	padding: 60px 0;
+}
+.peicex_section ul {
+    padding: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+.pricing-table-3 {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+    background-color: #fff;
+    text-align: center;
+    -webkit-transition: .25s;
+            transition: .25s;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+}
+.pricing-table-3:hover,
+.pricing-table-3.active {
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+/*------------------------------------*\
+    2. PRICING TABLE - HEADER
+\*------------------------------------*/
+.pt-3--header {
+    margin-top: 80px;
+}
+
+.pt-3-header--img figure {
+    position: relative;
+}
+.pt-3-header--img figure:before {
+    content: " ";
+    background-color: rgba(34,34,34,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.pt-3-header--img img.img-responsive {
+    width: 100%;
+}
+.pt-3-header--img figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.pt-3-header-img--price {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+			transform: translateX(-50%);
+    width: 160px;
+    height: 160px;
+    padding: 75px 0;
+    border-radius: 50%;
+	box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2);
+    color: #fff;
+    font-size: 42px;
+    font-weight: 400;
+    background-color: #ff5252;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: .25s;
+            transition: .25s;
+	z-index: 1;
+	line-height: 20px;
+}
+.pricing-table-3:hover .pt-3-header-img--price,
+.pricing-table-3.active .pt-3-header-img--price {
+    top: -85px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.pt-3-header-img--icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 62px;
+}
+
+.pt-3-header-img--tag {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+    width: 100%;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    text-transform: capitalize;
+    -webkit-transition: margin .25s ease-in-out;
+            transition: margin .25s ease-in-out;
+}
+.pricing-table-3.active .pt-3-header-img--tag,
+.pricing-table-3:hover .pt-3-header-img--tag {
+    margin-top: 30px;
+}
+.pt-3-header-img--tag span {
+    position: relative;
+}
+.pt-3-header-img--tag span:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -4px;
+    width: 40px;
+    height: 2px;
+    background-color: #ff5252;
+    margin: 0 auto;
+}
+
+.pt-3-header-img--tag p {
+    margin: 10px 50px 0;
+    word-break: break-all;
+}
+
+/*------------------------------------*\
+    3. PRICING TABLE - BODY
+\*------------------------------------*/
+.pt-3--body ul {
+    margin: 0;
+    padding: 15px 0;
+    list-style: none;
+}
+.pt-3--body li {
+	padding: 5px 0;
+    color: #737373;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/*------------------------------------*\
+    4. PRICING TABLE - FOOTER
+\*------------------------------------*/
+.pt-3--footer {
+    padding: 25px 0;
+	border-top: 1px solid rgba(0,0,0,.1);
+	font-size: 16px;
+    line-height: normal;
+}
+.pt-3--footer a {
+    height: auto;
+    padding: 5px 35px;
+}
+.pt-3--footer a:hover,
+.pt-3--footer a:focus {
+	text-decoration: none;
+}

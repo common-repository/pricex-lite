@@ -1,0 +1,170 @@
+/*
+
+[Pricing Table Style 4]
+
+Project: PriceX - Material Design Pricing Table Set
+Version: 1.0
+Author : themelooks.com
+
+[Table of Contents]
+
+1. PRICING TABLE
+
+2. PRICING TABLE - HEADER
+
+3. PRICING TABLE - BODY
+
+4. PRICING TABLE - FOOTER
+
+*/
+
+/*------------------------------------*\
+    1. PRICING TABLE
+\*------------------------------------*/
+.margin-bottom {
+	margin-bottom: 30px;
+}
+.peicex_section {
+	padding: 60px 0;
+}
+.peicex_section ul {
+    padding: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+.no-padding {
+	padding-left:0;
+	padding-right:0;
+}
+.pricing-table-4 {
+    position: relative;
+    padding: 50px 0 50px;
+	text-align: center;
+    -webkit-transition: .25s ease-in;
+            transition: .25s ease-in;
+    -webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+				 -webkit-filter: blur(0);
+	z-index: 0;
+}
+.pricing-table-4:hover {
+	z-index: 1;
+}
+.pricing-table-4:hover,
+.pricing-table-4.active {
+    background-color: #ff5252;
+    -webkit-transform: scale(1.01);
+		-ms-transform: scale(1.01);
+			transform: scale(1.01);
+	box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2);
+}
+.pricing-table-4:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #e9e9e9;
+}
+.pricing-table-4:hover:before,
+.pricing-table-4.no-border:before,
+.peicex_section .row div:last-child .pricing-table-4:before {
+	display: none;
+}
+@media screen and (max-width: 991px) {
+	.pricing-table-4:before {
+		display: none;
+	}
+}
+
+/*------------------------------------*\
+    2. PRICING TABLE - HEADER
+\*------------------------------------*/
+.pt-4--header {
+    color: #303030;
+}
+.pricing-table-4:hover .pt-4--header,
+.pricing-table-4.active .pt-4--header {
+    color: #fff;
+}
+
+.pt-4-header--sign {
+    margin-left: -30px;
+    color: #757575;
+    font-size: 36px;
+    font-weight: 700;
+    vertical-align: top;
+}
+.pricing-table-4:hover .pt-4-header--sign,
+.pricing-table-4.active .pt-4-header--sign {
+    color: #fff;
+}
+
+.pt-4-header--amount {
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 65px;
+}
+
+.pt-4-header--desc {
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.pt-4-header--desc span {
+    border-bottom: 1px solid #303030;
+}
+.pricing-table-4:hover .pt-4-header--desc span,
+.pricing-table-4.active .pt-4-header--desc span {
+	border-color: #fff;
+}
+
+/*------------------------------------*\
+    3. PRICING TABLE - BODY
+\*------------------------------------*/
+.pt-4--body {
+    margin: 30px 0;
+}
+.pt-4--body ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.pt-4--body li {
+    margin-bottom: 10px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 300;
+	-webkit-transition: color .25s ease-in-out;
+	        transition: color .25s ease-in-out;
+}
+.pricing-table-4:hover .pt-4--body li,
+.pricing-table-4.active .pt-4--body li {
+	color: #fff;
+}
+.pt-4--body li:last-child {
+    margin-bottom: 0;
+}
+
+/*------------------------------------*\
+    4. PRICING TABLE - FOOTER
+\*------------------------------------*/
+.pt-4--footer a {
+    height: auto;
+    padding: 4px 30px;
+}
+.pricing-table-4:hover .pt-4--footer a.mdl-button.mdl-button--accent,
+.pricing-table-4.active .pt-4--footer a.mdl-button.mdl-button--accent {
+    color: #ff5252;
+    background-color: #fff !important;
+}
+.pricing-table-4:hover .pt-4--footer a .mdl-ripple,
+.pricing-table-4.active .pt-4--footer a .mdl-ripple {
+    background: #ff5252;
+}
+.pt-4--footer a:hover,
+.pt-4--footer a:focus {
+	text-decoration: none;
+}
